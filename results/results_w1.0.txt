@@ -1,0 +1,290 @@
+Query Q1: light in the attic
+1. 575e198828ce | final=1.000000 | lexical=6.644775 | pr=0.021291
+   title=Books | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books_1/index.html
+2. c8cb1d10209c | final=1.000000 | lexical=52.927463 | pr=0.017128
+   title=A Light in the Attic | Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+3. 28601df7cace | final=1.000000 | lexical=6.644775 | pr=0.021291
+   title=Poetry | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/poetry_23/index.html
+4. 7e7ba33e53c2 | final=0.691415 | lexical=6.644775 | pr=0.020006
+   title=Historical | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/historical_42/index.html
+
+Query Q2: mystery book
+1. 575e198828ce | final=1.000000 | lexical=2.039605 | pr=0.021291
+   title=Books | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books_1/index.html
+2. 00e14fddaa9a | final=1.000000 | lexical=9.130668 | pr=0.020006
+   title=Art | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/art_25/index.html
+3. 28601df7cace | final=1.000000 | lexical=2.039605 | pr=0.021291
+   title=Poetry | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/poetry_23/index.html
+4. 81a1bf0d2d72 | final=1.000000 | lexical=9.130668 | pr=0.020006
+   title=Religion | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/religion_12/index.html
+5. 43b27adb48ee | final=1.000000 | lexical=9.130668 | pr=0.020006
+   title=Sports and Games | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/sports-and-games_17/index.html
+6. d4c83c25957c | final=0.575261 | lexical=6.118816 | pr=0.020006
+   title=Mystery | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/mystery_3/index.html
+7. b723ec870f24 | final=0.143815 | lexical=3.059408 | pr=0.020006
+   title=Default | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/default_15/index.html
+8. f1b1cc430e42 | final=0.000000 | lexical=2.039605 | pr=0.020006
+   title=Academic | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/academic_40/index.html
+9. c8b2768b96ef | final=0.000000 | lexical=2.039605 | pr=0.020006
+   title=Add a comment | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html
+10. 1309aeb25f73 | final=0.000000 | lexical=2.039605 | pr=0.020006
+   title=Adult Fiction | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html
+
+Query Q3: the great gatsby
+1. 4e295667b231 | final=0.000000 | lexical=7.666427 | pr=0.020006
+   title=History | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/history_32/index.html
+2. df6eecee1218 | final=0.000000 | lexical=7.666427 | pr=0.020006
+   title=Travel | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/travel_2/index.html
+
+Query Q4: sapiens
+1. 575e198828ce | final=1.000000 | lexical=7.666427 | pr=0.021291
+   title=Books | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books_1/index.html
+2. 4e295667b231 | final=0.000000 | lexical=7.666427 | pr=0.020006
+   title=History | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/history_32/index.html
+
+Query Q5: poetry collection
+1. 28601df7cace | final=1.956829 | lexical=14.091063 | pr=0.021291
+   title=Poetry | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/poetry_23/index.html
+2. c687aeeab2d8 | final=1.252568 | lexical=9.091063 | pr=0.020006
+   title=Sequential Art | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/sequential-art_5/index.html
+3. 575e198828ce | final=1.000000 | lexical=2.000000 | pr=0.021291
+   title=Books | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books_1/index.html
+4. c8cb1d10209c | final=1.000000 | lexical=14.636594 | pr=0.017128
+   title=A Light in the Attic | Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+5. f1b1cc430e42 | final=0.691415 | lexical=2.000000 | pr=0.020006
+   title=Academic | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/academic_40/index.html
+6. c8b2768b96ef | final=0.691415 | lexical=2.000000 | pr=0.020006
+   title=Add a comment | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html
+7. 1309aeb25f73 | final=0.691415 | lexical=2.000000 | pr=0.020006
+   title=Adult Fiction | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html
+8. 00e14fddaa9a | final=0.691415 | lexical=2.000000 | pr=0.020006
+   title=Art | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/art_25/index.html
+9. 258d62bdfb69 | final=0.691415 | lexical=2.000000 | pr=0.020006
+   title=Autobiography | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/autobiography_27/index.html
+10. e763dd96c2fe | final=0.691415 | lexical=2.000000 | pr=0.020006
+   title=Biography | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/biography_36/index.html
+
+Query Q6: oliver twist
+
+Query Q7: historical fiction
+1. 575e198828ce | final=1.000000 | lexical=10.198026 | pr=0.021291
+   title=Books | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books_1/index.html
+2. 567b6f9d6cf2 | final=1.000000 | lexical=18.356447 | pr=0.020006
+   title=Historical Fiction | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html
+3. 28601df7cace | final=1.000000 | lexical=10.198026 | pr=0.021291
+   title=Poetry | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/poetry_23/index.html
+4. 1309aeb25f73 | final=0.500000 | lexical=14.277237 | pr=0.020006
+   title=Adult Fiction | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html
+5. b7cc61257560 | final=0.500000 | lexical=14.277237 | pr=0.020006
+   title=Christian Fiction | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/christian-fiction_34/index.html
+6. e6e880276b66 | final=0.500000 | lexical=14.277237 | pr=0.020006
+   title=Fiction | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/fiction_10/index.html
+7. 7e7ba33e53c2 | final=0.500000 | lexical=14.277237 | pr=0.020006
+   title=Historical | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/historical_42/index.html
+8. 855a192d2e4c | final=0.500000 | lexical=14.277237 | pr=0.020006
+   title=Science Fiction | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/science-fiction_16/index.html
+9. f1b1cc430e42 | final=0.000000 | lexical=10.198026 | pr=0.020006
+   title=Academic | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/academic_40/index.html
+10. c8b2768b96ef | final=0.000000 | lexical=10.198026 | pr=0.020006
+   title=Add a comment | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html
+
+Query Q8: travel guide book
+1. 575e198828ce | final=1.000000 | lexical=2.039605 | pr=0.021291
+   title=Books | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books_1/index.html
+2. 28601df7cace | final=1.000000 | lexical=2.039605 | pr=0.021291
+   title=Poetry | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/poetry_23/index.html
+3. df6eecee1218 | final=1.000000 | lexical=12.763591 | pr=0.020006
+   title=Travel | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/travel_2/index.html
+4. 00e14fddaa9a | final=0.661234 | lexical=9.130668 | pr=0.020006
+   title=Art | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/art_25/index.html
+5. 81a1bf0d2d72 | final=0.661234 | lexical=9.130668 | pr=0.020006
+   title=Religion | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/religion_12/index.html
+6. 43b27adb48ee | final=0.661234 | lexical=9.130668 | pr=0.020006
+   title=Sports and Games | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/sports-and-games_17/index.html
+7. 2210feee3b13 | final=0.619618 | lexical=8.684381 | pr=0.020006
+   title=Food and Drink | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/food-and-drink_33/index.html
+8. d4c83c25957c | final=0.619618 | lexical=8.684381 | pr=0.020006
+   title=Mystery | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/mystery_3/index.html
+9. 94ec70023e94 | final=0.619618 | lexical=8.684381 | pr=0.020006
+   title=Romance | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/romance_8/index.html
+10. f1b1cc430e42 | final=0.000000 | lexical=2.039605 | pr=0.020006
+   title=Academic | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/academic_40/index.html
+
+Query Q9: fiction story
+1. 575e198828ce | final=1.000000 | lexical=7.138618 | pr=0.021291
+   title=Books | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books_1/index.html
+2. 00e14fddaa9a | final=1.000000 | lexical=14.229681 | pr=0.020006
+   title=Art | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/art_25/index.html
+3. 01600fb67899 | final=1.000000 | lexical=14.229681 | pr=0.020006
+   title=Childrens | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/childrens_11/index.html
+4. 1ea5ebd172a1 | final=1.000000 | lexical=14.229681 | pr=0.020006
+   title=Classics | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/classics_6/index.html
+5. 28601df7cace | final=1.000000 | lexical=7.138618 | pr=0.021291
+   title=Poetry | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/poetry_23/index.html
+6. 1309aeb25f73 | final=0.575261 | lexical=11.217829 | pr=0.020006
+   title=Adult Fiction | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html
+7. b7cc61257560 | final=0.575261 | lexical=11.217829 | pr=0.020006
+   title=Christian Fiction | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/christian-fiction_34/index.html
+8. e6e880276b66 | final=0.575261 | lexical=11.217829 | pr=0.020006
+   title=Fiction | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/fiction_10/index.html
+9. 567b6f9d6cf2 | final=0.575261 | lexical=11.217829 | pr=0.020006
+   title=Historical Fiction | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html
+10. 855a192d2e4c | final=0.575261 | lexical=11.217829 | pr=0.020006
+   title=Science Fiction | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/science-fiction_16/index.html
+
+Query Q10: hunger games
+1. 575e198828ce | final=1.000000 | lexical=2.039605 | pr=0.021291
+   title=Books | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books_1/index.html
+2. 28601df7cace | final=1.000000 | lexical=2.039605 | pr=0.021291
+   title=Poetry | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/poetry_23/index.html
+3. 43b27adb48ee | final=1.000000 | lexical=6.118816 | pr=0.020006
+   title=Sports and Games | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/sports-and-games_17/index.html
+4. f1b1cc430e42 | final=0.000000 | lexical=2.039605 | pr=0.020006
+   title=Academic | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/academic_40/index.html
+5. c8b2768b96ef | final=0.000000 | lexical=2.039605 | pr=0.020006
+   title=Add a comment | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/add-a-comment_18/index.html
+6. 1309aeb25f73 | final=0.000000 | lexical=2.039605 | pr=0.020006
+   title=Adult Fiction | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/adult-fiction_29/index.html
+7. 00e14fddaa9a | final=0.000000 | lexical=2.039605 | pr=0.020006
+   title=Art | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/art_25/index.html
+8. 258d62bdfb69 | final=0.000000 | lexical=2.039605 | pr=0.020006
+   title=Autobiography | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/autobiography_27/index.html
+9. e763dd96c2fe | final=0.000000 | lexical=2.039605 | pr=0.020006
+   title=Biography | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/biography_36/index.html
+10. 3b4860fa27b2 | final=0.000000 | lexical=2.039605 | pr=0.020006
+   title=Business | 
+     Books to Scrape - Sandbox
+   url=https://books.toscrape.com/catalogue/category/books/business_35/index.html
+

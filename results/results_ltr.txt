@@ -1,0 +1,120 @@
+query_id	doc_id	score	rank	title
+Q1	c8cb1d10209c	0.892544	1	A Light in the Attic | Books to Scrape - Sandbox
+Q1	38f6047a1a36	0.858346	2	All the Light We Cannot See | Books to Scrape - Sandbox
+Q1	af733c584df3	0.809871	3	Brilliant Beacons: A History of the American Lighthouse | Books to Scrape - Sandbox
+Q1	2423986f3090	0.809871	4	(Un)Qualified: How God Uses Broken People to Do Big Things | Books to Scrape - Sandbox
+Q1	7e7ba33e53c2	0.698609	5	Historical | 
+     Books to Scrape - Sandbox
+Q1	36e57dcc78e3	0.673443	6	Suzie Snowflake: One beautiful flake (a self-esteem story) | Books to Scrape - Sandbox
+Q1	aa894b57e533	0.585209	7	When We Collided | Books to Scrape - Sandbox
+Q1	fc25152d8b34	0.582490	8	Girl With a Pearl Earring | Books to Scrape - Sandbox
+Q1	0697c9bffdd1	0.356378	9	The Mindfulness and Acceptance Workbook for Anxiety: A Guide to Breaking Free from Anxiety, Phobias, and Worry Using Acceptance and Commitment Therapy | Books to Scrape - Sandbox
+Q1	acb92786b5ea	0.356378	10	Thomas Jefferson and the Tripoli Pirates: The Forgotten War That Changed American History | Books to Scrape - Sandbox
+Q2	58cf4df35bc1	0.907072	1	The Book of Mormon | Books to Scrape - Sandbox
+Q2	d3059fd4a162	0.907072	2	The Art of Startup Fundraising | Books to Scrape - Sandbox
+Q2	f7679d85b888	0.907072	3	A Heartbreaking Work of Staggering Genius | Books to Scrape - Sandbox
+Q2	72c037e9703b	0.907072	4	If I Gave You God's Phone Number....: Searching for Spirituality in America | Books to Scrape - Sandbox
+Q2	0697c9bffdd1	0.886272	5	The Mindfulness and Acceptance Workbook for Anxiety: A Guide to Breaking Free from Anxiety, Phobias, and Worry Using Acceptance and Commitment Therapy | Books to Scrape - Sandbox
+Q2	2ec16d5a0e12	0.886272	6	The Grand Design | Books to Scrape - Sandbox
+Q2	8f50de3e41b7	0.886272	7	Art and Fear: Observations on the Perils (and Rewards) of Artmaking | Books to Scrape - Sandbox
+Q2	7f34c60fe767	0.868452	8	Kill 'Em and Leave: Searching for James Brown and the American Soul | Books to Scrape - Sandbox
+Q2	caff58ae58ef	0.860659	9	The Murder of Roger Ackroyd (Hercule Poirot #4) | Books to Scrape - Sandbox
+Q2	735ff96f1aa6	0.858346	10	The Day the Crayons Came Home (Crayons) | Books to Scrape - Sandbox
+Q3	e03b97badae3	0.908645	1	Everyday Italian: 125 Simple and Delicious Recipes | Books to Scrape - Sandbox
+Q3	5dd11e3518d4	0.858346	2	Catherine the Great: Portrait of a Woman | Books to Scrape - Sandbox
+Q3	6dedabdabc63	0.810365	3	America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana | Books to Scrape - Sandbox
+Q3	34fcdb398415	0.810185	4	Full Moon over Noahâs Ark: An Odyssey to Mount Ararat and Beyond | Books to Scrape - Sandbox
+Q3	e1816c1cd9b1	0.659232	5	Counted With the Stars (Out from Egypt #1) | Books to Scrape - Sandbox
+Q3	2a67c76fdc4f	0.656883	6	The Great Railway Bazaar | Books to Scrape - Sandbox
+Q3	4788710667b3	0.565650	7	Shakespeare's Sonnets | Books to Scrape - Sandbox
+Q3	242f9e804958	0.483650	8	Orchestra of Exiles: The Story of Bronislaw Huberman, the Israel Philharmonic, and the One Thousand Jews He Saved from Nazi Horrors | Books to Scrape - Sandbox
+Q3	2ec16d5a0e12	0.483650	9	The Grand Design | Books to Scrape - Sandbox
+Q3	5f5c10cd7bcf	0.483650	10	America's War for the Greater Middle East: A Military History | Books to Scrape - Sandbox
+Q4	1e61db7d8728	0.800365	1	Sapiens: A Brief History of Humankind | Books to Scrape - Sandbox
+Q4	0a1f324bd0c9	0.555533	2	The Black Maria | Books to Scrape - Sandbox
+Q4	7c3efeb8b646	0.555533	3	The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull | Books to Scrape - Sandbox
+Q4	fdab5bcbc839	0.398308	4	The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics | Books to Scrape - Sandbox
+Q4	28fafc2c502a	0.378308	5	The Dirty Little Secrets of Getting Your Dream Job | Books to Scrape - Sandbox
+Q4	4e295667b231	0.376586	6	History | 
+     Books to Scrape - Sandbox
+Q4	636a215df211	0.376586	7	The Requiem Red | Books to Scrape - Sandbox
+Q4	575e198828ce	0.358159	8	Books | 
+     Books to Scrape - Sandbox
+Q4	09c3405e8661	0.358159	9	Starving Hearts (Triangular Trade Trilogy, #1) | Books to Scrape - Sandbox
+Q5	e059a3eeb436	0.897307	1	Out of Print: City Lights Spotlight No. 14 | Books to Scrape - Sandbox
+Q5	0a1f324bd0c9	0.897307	2	The Black Maria | Books to Scrape - Sandbox
+Q5	604cf02dce76	0.897069	3	You can't bury them all: Poems | Books to Scrape - Sandbox
+Q5	4788710667b3	0.892544	4	Shakespeare's Sonnets | Books to Scrape - Sandbox
+Q5	c8cb1d10209c	0.892544	5	A Light in the Attic | Books to Scrape - Sandbox
+Q5	47dab197fe82	0.890659	6	Quarter Life Poetry: Poems for the Young, Broke and Hangry | Books to Scrape - Sandbox
+Q5	28a762acb8f4	0.890659	7	Untitled Collection: Sabbath Poems 2014 | Books to Scrape - Sandbox
+Q5	ae0a82e1d197	0.875106	8	salt. | Books to Scrape - Sandbox
+Q5	87feee1a4889	0.852333	9	Les Fleurs du Mal | Books to Scrape - Sandbox
+Q5	e082714697ea	0.820365	10	Olio | Books to Scrape - Sandbox
+Q6	0ac004291159	0.830365	1	First and First (Five Boroughs #3) | Books to Scrape - Sandbox
+Q6	660d846c4b3a	0.828229	2	Barefoot Contessa at Home: Everyday Recipes You'll Make Over and Over Again | Books to Scrape - Sandbox
+Q6	735ff96f1aa6	0.778912	3	The Day the Crayons Came Home (Crayons) | Books to Scrape - Sandbox
+Q6	540b562ff499	0.768256	4	Little Red | Books to Scrape - Sandbox
+Q6	ac1522ee7cc6	0.666883	5	Take Me with You | Books to Scrape - Sandbox
+Q7	f89cfd3eedb3	0.912544	1	Philosophy | 
+     Books to Scrape - Sandbox
+Q7	d1d1d010c83a	0.897069	2	Forever and Forever: The Courtship of Henry Longfellow and Fanny Appleton | Books to Scrape - Sandbox
+Q7	df6eecee1218	0.892544	3	Travel | 
+     Books to Scrape - Sandbox
+Q7	87fe29e36ad4	0.892544	4	Music | 
+     Books to Scrape - Sandbox
+Q7	bd5945d7d869	0.892544	5	Science | 
+     Books to Scrape - Sandbox
+Q7	3b4860fa27b2	0.892544	6	Business | 
+     Books to Scrape - Sandbox
+Q7	99dfd67cfc0a	0.892544	7	Thriller | 
+     Books to Scrape - Sandbox
+Q7	200ded1d26a8	0.878060	8	The Invention of Wings | Books to Scrape - Sandbox
+Q7	7e7ba33e53c2	0.875960	9	Historical | 
+     Books to Scrape - Sandbox
+Q7	1309aeb25f73	0.875960	10	Adult Fiction | 
+     Books to Scrape - Sandbox
+Q8	4bed586a313e	0.925050	1	Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel | Books to Scrape - Sandbox
+Q8	58cf4df35bc1	0.907072	2	The Book of Mormon | Books to Scrape - Sandbox
+Q8	f7679d85b888	0.907072	3	A Heartbreaking Work of Staggering Genius | Books to Scrape - Sandbox
+Q8	72c037e9703b	0.907072	4	If I Gave You God's Phone Number....: Searching for Spirituality in America | Books to Scrape - Sandbox
+Q8	d3059fd4a162	0.897307	5	The Art of Startup Fundraising | Books to Scrape - Sandbox
+Q8	0697c9bffdd1	0.897307	6	The Mindfulness and Acceptance Workbook for Anxiety: A Guide to Breaking Free from Anxiety, Phobias, and Worry Using Acceptance and Commitment Therapy | Books to Scrape - Sandbox
+Q8	d9e2289c4268	0.897307	7	A Girl's Guide to Moving On (New Beginnings #2) | Books to Scrape - Sandbox
+Q8	2ec16d5a0e12	0.897307	8	The Grand Design | Books to Scrape - Sandbox
+Q8	76dcef897ac0	0.897069	9	A World of Flavor: Your Gluten Free Passport | Books to Scrape - Sandbox
+Q8	df6eecee1218	0.892544	10	Travel | 
+     Books to Scrape - Sandbox
+Q9	f89cfd3eedb3	0.910481	1	Philosophy | 
+     Books to Scrape - Sandbox
+Q9	b469faa90013	0.908645	2	The Torch Is Passed: A Harding Family Story | Books to Scrape - Sandbox
+Q9	f7679d85b888	0.907072	3	A Heartbreaking Work of Staggering Genius | Books to Scrape - Sandbox
+Q9	b22ad7979cab	0.907072	4	Security | Books to Scrape - Sandbox
+Q9	242f9e804958	0.907072	5	Orchestra of Exiles: The Story of Bronislaw Huberman, the Israel Philharmonic, and the One Thousand Jews He Saved from Nazi Horrors | Books to Scrape - Sandbox
+Q9	acb92786b5ea	0.907072	6	Thomas Jefferson and the Tripoli Pirates: The Forgotten War That Changed American History | Books to Scrape - Sandbox
+Q9	3c60c3a170c8	0.897069	7	Mesaerion: The Best Science Fiction Stories 1800-1849 | Books to Scrape - Sandbox
+Q9	1309aeb25f73	0.895788	8	Adult Fiction | 
+     Books to Scrape - Sandbox
+Q9	b7cc61257560	0.895788	9	Christian Fiction | 
+     Books to Scrape - Sandbox
+Q9	81a1bf0d2d72	0.895788	10	Religion | 
+     Books to Scrape - Sandbox
+Q10	43b27adb48ee	0.895788	1	Sports and Games | 
+     Books to Scrape - Sandbox
+Q10	9d08b40a2145	0.810365	2	Settling the Score (The Summer Games #1) | Books to Scrape - Sandbox
+Q10	81a1bf0d2d72	0.720302	3	Religion | 
+     Books to Scrape - Sandbox
+Q10	c38ca6bcc953	0.720302	4	New Adult | 
+     Books to Scrape - Sandbox
+Q10	91c2c60bc088	0.720302	5	Paranormal | 
+     Books to Scrape - Sandbox
+Q10	00e14fddaa9a	0.720302	6	Art | 
+     Books to Scrape - Sandbox
+Q10	c191d6203e13	0.720302	7	Psychology | 
+     Books to Scrape - Sandbox
+Q10	258d62bdfb69	0.720302	8	Autobiography | 
+     Books to Scrape - Sandbox
+Q10	b715f3f365f4	0.720302	9	Parenting | 
+     Books to Scrape - Sandbox
+Q10	1309aeb25f73	0.720302	10	Adult Fiction | 
+     Books to Scrape - Sandbox
