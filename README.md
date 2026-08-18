@@ -1,4 +1,4 @@
-Tôi sẽ viết tiếp một phiên bản báo cáo ngắn gọn, sạch và chuyên nghiệp hơn, đúng kiểu để bạn copy thẳng vào README hoặc Git repo mà không cần chỉnh thêm nhiều.
+
 
 ## Báo cáo dự án: Xây dựng hệ thống tìm kiếm thông tin sách bằng crawl, PageRank và mô hình ranking
 
