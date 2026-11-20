@@ -1,86 +1,95 @@
+# Book Search Engine with Crawling, PageRank and Ranking Models
 
+![Python 3](https://img.shields.io/badge/Python-3-blue?style=flat-square)
+![Course · IR](https://img.shields.io/badge/Course%20%C2%B7%20IR-blue?style=flat-square)
 
-## Báo cáo dự án: Xây dựng hệ thống tìm kiếm thông tin sách bằng crawl, PageRank và mô hình ranking
-
-### 1. Giới thiệu
-Dự án này tập trung vào việc xây dựng một hệ thống tìm kiếm thông tin sách dựa trên dữ liệu thu thập từ website Books to Scrape. Mục tiêu chính là tạo ra một pipeline hoàn chỉnh để crawl dữ liệu, xây dựng chỉ mục, tính toán PageRank, kết hợp với tìm kiếm theo từ khóa và đánh giá hiệu quả của hệ thống.
-
-Hệ thống không chỉ đơn thuần tìm kiếm theo văn bản, mà còn kết hợp thêm thông tin cấu trúc liên kết giữa các trang để nâng cao chất lượng xếp hạng. Đây là hướng tiếp cận điển hình của truy hồi thông tin hiện đại, nơi độ hữu ích của một tài liệu không chỉ phụ thuộc vào nội dung mà còn phụ thuộc vào mức độ quan trọng của nó trong mạng liên kết.
+This project builds a book search engine over data crawled from the Books to Scrape website. The goal is a complete pipeline that crawls the data, builds an index, computes PageRank, combines keyword search with PageRank, and evaluates the resulting system. The system does not rely on text matching alone: it also uses the link structure between pages to improve ranking quality. This is a typical approach in modern information retrieval, where the usefulness of a document depends not only on its content but also on its importance within the link network.
 
 ---
 
-### 2. Mục tiêu của bài toán
-Mục tiêu của dự án là:
-- Thu thập dữ liệu sách từ nguồn web có cấu trúc rõ ràng.
-- Tạo một tập dữ liệu đủ lớn, đa dạng và có tính thực tiễn hơn so với phiên bản ban đầu.
-- Xây dựng đồ thị liên kết giữa các trang sách.
-- Tính toán PageRank để xác định độ quan trọng của từng tài liệu.
-- Xây dựng inverted index để thực hiện tìm kiếm theo từ khóa.
-- Kết hợp điểm lexical và PageRank để tăng chất lượng xếp hạng.
-- Đánh giá kết quả bằng các tiêu chuẩn của IR như P@10, Recall@100 và NDCG@10.
-- Cải thiện và hoàn thiện pipeline từ giai đoạn prototype tới version gần như hoàn chỉnh.
+## Objectives
+
+- Collect book data from a web source with a clear structure.
+- Build a dataset that is larger, more diverse, and more practical than the initial version.
+- Build a link graph between book pages.
+- Compute PageRank to determine the importance of each document.
+- Build an inverted index to support keyword search.
+- Combine lexical and PageRank scores to improve ranking quality.
+- Evaluate results using standard IR metrics: P@10, Recall@100, and NDCG@10.
+- Improve and complete the pipeline, from an early prototype to a nearly complete version.
 
 ---
 
-### 3. Phương pháp thực hiện
+## Method
 
-#### 3.1. Crawl dữ liệu
-Quá trình crawl được thực hiện từ các URL seed ban đầu, sau đó thu thập các trang nội dung liên quan. Trong quá trình cải tiến, hệ thống đã:
-- tăng số lượng seed URL,
-- loại bỏ các link điều hướng không cần thiết,
-- bỏ các link login, basket, search, duplicate và self-link,
-- giới hạn crawl theo domain của website để tránh rác.
+### 1. Crawling
 
-Việc này giúp dữ liệu thu thập được có tính phù hợp hơn và ít bị nhiễu.
+Crawling starts from a set of seed URLs and then collects the relevant content pages. During the improvement phase, the system:
 
-#### 3.2. Xây dựng đồ thị liên kết
-Sau khi crawl dữ liệu, mỗi tài liệu được biểu diễn như một node. Nếu tài liệu A có liên kết tới tài liệu B thì thêm một directed edge A → B. Đồng thời:
-- bỏ self-loop,
-- bỏ các liên kết không hợp lệ,
-- lọc các edge không phản ánh nội dung thực sự.
+- increased the number of seed URLs,
+- removed unnecessary navigation links,
+- excluded login, basket, search, duplicate, and self-links,
+- restricted crawling to the website's domain to avoid noise.
 
-Đây là bước quan trọng để PageRank hoạt động tốt hơn.
+These changes make the collected data more relevant and less noisy.
 
-#### 3.3. Tính toán PageRank
-PageRank được áp dụng trên đồ thị liên kết đã được xây dựng. Thuật toán này xác định tài liệu nào có độ quan trọng cao hơn dựa trên số lượng và chất lượng liên kết tới nó.
+### 2. Link Graph Construction
 
-Các cải tiến quan trọng bao gồm:
-- tăng damping factor tới giá trị chuẩn 0.85,
-- tăng số vòng lặp tối đa cho hội tụ,
-- cải thiện độ tin cậy của đồ thị đầu vào.
+After crawling, each document is represented as a node. If document A links to document B, a directed edge A → B is added. In addition:
 
-#### 3.4. Xây dựng inverted index
-Sau khi đã có tài liệu, hệ thống tiến hành tokenize văn bản, đếm tần suất từ và tính IDF. Từ đó, xây dựng inverted index để tìm kiếm các tài liệu chứa từ khóa truy vấn nhanh chóng và hiệu quả.
+- self-loops are removed,
+- invalid links are removed,
+- edges that do not reflect actual content are filtered out.
 
-#### 3.5. Tìm kiếm kết hợp
-Hệ thống sử dụng kết hợp giữa:
-- lexical score: độ phù hợp theo từ khóa,
-- PageRank score: độ quan trọng của tài liệu trong mạng liên kết.
+This step is important for PageRank to work well.
 
-Cách kết hợp này giúp tránh việc chỉ dựa vào từ khóa làm sai lệch kết quả, đồng thời giữ được tính chất quan trọng của tài liệu trong đồ thị liên kết.
+### 3. PageRank Computation
 
-#### 3.6. Học máy LTR
-Ngoài các phương pháp cơ bản, dự án cũng triển khai mô hình Learning to Rank, sử dụng các feature như:
-- điểm lexical,
+PageRank is applied to the constructed link graph. It determines which documents are more important based on the number and quality of links pointing to them.
+
+Key improvements include:
+
+- raising the damping factor to the standard value of 0.85,
+- increasing the maximum number of iterations for convergence,
+- improving the reliability of the input graph.
+
+### 4. Inverted Index
+
+After the documents are collected, the system tokenizes the text, counts term frequencies, and computes IDF values. These are used to build an inverted index, which enables fast and efficient retrieval of documents containing the query keywords.
+
+### 5. Combined Search
+
+The system combines two signals:
+
+- **Lexical score**: relevance based on keyword matching.
+- **PageRank score**: importance of a document within the link network.
+
+This combination prevents results from being skewed by keywords alone, while preserving the importance of documents in the link graph.
+
+### 6. Learning to Rank (LTR)
+
+In addition to the basic methods, the project implements a Learning to Rank model using features such as:
+
+- lexical score,
 - PageRank,
-- độ dài tài liệu,
-- số lượng từ khớp,
-- các chỉ số thống kê khác.
+- document length,
+- number of matched terms,
+- other statistical indicators.
 
-Mục tiêu là xếp hạng lại kết quả tìm kiếm tốt hơn theo dữ liệu thực nghiệm.
+The goal is to re-rank search results more effectively based on experimental data.
 
 ---
 
-### 4. Kết quả đạt được
+## Results
 
-Sau khi cải tiến pipeline, hệ thống đã hoạt động thành công với dữ liệu mới. Các kết quả thực tế thu được như sau:
+After improving the pipeline, the system runs successfully on the new data. Measured results:
 
-- Số lượng tài liệu trong graph: 567 documents
-- Số lượng edge: 4121
-- Pipeline crawl + index + PageRank + retrieval chạy ổn định
-- Các metric đánh giá cho các phương pháp đã được thu thập rõ ràng
+- Documents in the graph: 567
+- Edges: 4121
+- The crawl, indexing, PageRank, and retrieval pipeline runs stably.
+- Evaluation metrics for each method were collected.
 
-Bảng so sánh kết quả:
+Comparison of methods:
 
 | Method | P@10 | Recall@100 | NDCG@10 |
 |---|---:|---:|---:|
@@ -89,47 +98,55 @@ Bảng so sánh kết quả:
 | w1.0 | 0.0900 | 0.4012 | 0.2845 |
 | w5.0 | 0.1100 | 0.4321 | 0.2659 |
 
-Nhận xét:
-- Hệ thống đã chạy ổn định và có số liệu thật.
-- Phương pháp đạt hiệu quả tốt nhất hiện tại là w0.0 và không hoàn toàn phụ thuộc vào PageRank.
-- LTR chưa đạt hiệu quả tối ưu hiện tại do tập query/qrels còn hạn chế.
-- Tuy nhiên, hệ thống đã tiến xa hơn rất nhiều so với bản đầu.
+Observations:
+
+- The system runs stably and produces real, measured results.
+- The best-performing method so far is w0.0, which does not depend entirely on PageRank.
+- LTR has not yet reached its optimal performance because the query/qrels set is limited.
+- Overall, the system has progressed far beyond the first version.
 
 ---
 
-### 5. Những cải tiến quan trọng so với phiên bản đầu
-So với bản nguyên mẫu, dự án đã sửa lại nhiều điểm trọng yếu:
-- tăng dự liệu crawl và tập tài liệu,
-- loại bỏ link điều hướng làm nhiễu,
-- tăng tính hợp lý của graph,
-- cải thiện PageRank,
-- xây dựng lại cách kết hợp score,
-- cải thiện ổn định của pipeline,
-- chuẩn bị nền tảng cho LTR tốt hơn.
+## Improvements over the Initial Version
 
-Đây là những thay đổi cần thiết để dự án không còn là hệ thống “quá nhỏ và quá đơn giản”, mà trở thành một pipeline thực tế của truy hồi thông tin.
+Compared with the prototype, the project addressed several key issues:
 
----
+- increased the crawled data and document set,
+- removed noisy navigation links,
+- improved graph quality,
+- improved PageRank,
+- rebuilt the score combination method,
+- improved pipeline stability,
+- prepared a stronger foundation for LTR.
 
-### 6. Hạn chế còn tồn tại
-Mặc dù hệ thống đã đạt được nhiều tiến bộ, vẫn còn một số hạn chế:
-- tập truy vấn còn ít,
-- qrels còn chưa đủ phong phú,
-- lượng tài liệu crawl thực tế chưa đạt mức kỳ vọng 1000 page như mục tiêu lý tưởng,
-- LTR chưa phát huy tối đa vì dữ liệu đánh giá chưa đủ mạnh.
-
-Vì vậy, hướng phát triển tiếp theo cần tập trung vào:
-- mở rộng tập truy vấn,
-- tăng chất lượng qrels,
-- cải thiện chiến lược crawl theo detail pages,
-- tối ưu hơn nữa feature cho mô hình LTR.
+These changes were necessary to move the project from a system that was too small and too simple to a practical information retrieval pipeline.
 
 ---
 
-### 7. Kết luận
-Dự án đã xây dựng được một hệ thống tìm kiếm thông tin sách hoàn chỉnh ở mức cơ bản và khá chặt chẽ: từ crawl dữ liệu, xây dựng graph, PageRank, inverted index, retrieval và đánh giá thực nghiệm. Các cải tiến đã giúp tăng đáng kể chất lượng của dữ liệu đầu vào và độ ổn định của hệ thống so với phiên bản ban đầu.
+## Limitations
 
-Mức hiệu suất hiện tại chưa phải là tối ưu hoàn hảo, nhưng đây là một nền tảng vững chắc cho những đợt cải tiến tiếp theo. Với việc tăng thêm query, qrels và tối ưu crawl, hệ thống hoàn toàn có khả năng nâng cao chất lượng tìm kiếm đáng kể trong tương lai.
+Despite this progress, several limitations remain:
+
+- the query set is small,
+- the qrels are not yet sufficiently comprehensive,
+- the number of crawled documents has not reached the target of 1000 pages,
+- LTR cannot reach its full potential because the evaluation data is not strong enough.
+
+Future work should therefore focus on:
+
+- expanding the query set,
+- improving qrels quality,
+- improving the crawling strategy with detail pages,
+- further optimizing features for the LTR model.
 
 ---
 
+## Conclusion
+
+The project delivers a basic yet fairly rigorous book search system, covering crawling, graph construction, PageRank, inverted index, retrieval, and experimental evaluation. These improvements significantly increased the quality of the input data and the stability of the system compared with the initial version.
+
+The current performance is not yet optimal, but it provides a solid foundation for future improvements. With more queries, better qrels, and an optimized crawling strategy, the system has strong potential to achieve significantly better search quality.
+
+---
+
+> Course project — Information Retrieval (IR)
